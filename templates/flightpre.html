@@ -1,0 +1,118 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="static\css\flight.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <!--Card-->
+    <div class="card shadow mb-5 bg-white rounded">
+        <!--Card-Body-->
+        <div class="card-body">
+            <form action="\predict" method="post">
+            <!--Card-Title-->
+            <p class="card-title text-center shadow mb-5 rounded">Flight Fare Prediction</p>
+          
+            <hr>
+            <p class="searchText"><strong>Search For Cheap Flights </strong></p>
+            <!--First Row-->
+           
+            <!--Second Row-->
+            <div class="row mt-2">
+                <div class="col-sm-6"> <select class="browser-default custom-select mb-4" name="Source" id="Source">
+                        <option value="" disabled="" selected="">---Source City/Airport---</option>
+                        <!-- <option value="none">--- Source ---</option> -->
+                        <option value="Chennai">Chennai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                    </select> </div>
+                <div class="col-sm-6"> <select class="browser-default custom-select mb-4"name="Destination" id="Destination">
+                        <option value="" disabled="" selected="">---Destination City/Airport---</option>
+                        <!-- <option value="none">--- Destination ---</option> -->
+                        <option value="Cochin">Cochin</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Bengaluru">Bengaluru</option>
+                    </select> </div>
+            </div>
+            <br>
+            </br>
+            <!--Third Row-->
+            <div class="row mt-3">
+                  <div class="col-sm-6">
+                      <!-- <p>Depature Date & Time</p> -->
+                    <input id="datetime-local" name="Dep_Time" id="Dep_Time" class="browser-default custom-select mb-4"  onfocus="(this.type='datetime-local')" placeholder="---Depature Date & Time---" required="required">
+                  </div>
+                  <div class="col-sm-6">
+                      <!-- <p>Arrival Date & Time</p> -->
+                   <input id="datetime-local"name="Arrival_Time" id="Arrival_Time"  class="browser-default custom-select mb-4"  onfocus="(this.type='datetime-local')" placeholder="---Arrival Date & Time---" required="required">
+                  </div>
+            </div>
+          
+            <br>
+            </br>
+
+
+            <!--Fourth Row-->
+            
+            <div class="row mt-4">
+                <div class="col-sm-6"> <select class="browser-default custom-select mb-4"name="airline" id="airline">
+                        <!-- <option value="" disabled="" selected="">Airline</option> -->
+                        <!-- <select class="form-input align-center" name="airline" required="required">  -->
+                            <option value="none">--- Choice of Airline ---</option>
+                            <option value="Air India">Air India</option>
+                            <option value="GOAir">GO Air</option>
+                            <option value="IndiGo">IndiGo</option>
+                            <option value="Jet Airways">Jet Airways</option>
+                            <option value="Jet Airways Business">Jet Airways Business</option>
+                            <option value="Multiple carriers">Multiple carriers</option>
+                            <option value="Multiple carriers Premium economy">Multiple carriers Premium Economy</option>
+                            <option value="SpiceJet">SpiceJet</option>
+                            <option value="Trujet">Trujet</option>
+                            <option value="Vistara">Vistara</option>
+                            <option value="Vistara_Premium_economy">Vistara Premium Economy</option>
+                            <option value="Air Asia">Air Asia</option>
+                    </select> </div>
+                <div class="col-sm-6"> <select class="browser-default custom-select mb-4" name="stops"id="stops" required="required">
+                        <option value="" disabled="" selected="">---Total Stop---</option>
+                        <option value="1">0</option>
+                        <option value="2">1</option>
+                        <option value="3">2</option>
+                        <option value="3">3</option>
+                    </select> </div>
+            </div>
+            <!--Fifth Row-->
+           
+            
+            <div class="text-center">
+                <!-- <button type="button" class="btn btn-info"value="predict">Predict</button>  -->
+                <input type="submit" class="myButton" value="predict"> 
+              </div>
+           
+            </form>
+            <h5>{{ prediction_test }}<h5> 
+        </div>
+    </div>
+        <footer> 
+           
+            <div class="text-center text-dark p-2" style="background-color:  #17a2b8;">
+               
+                <a class="text-dark" > © 2021 Copyright:Rupesh & Anushka</a>
+            </div>
+              <!-- Copyright -->
+        </footer>
+    
+  
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
