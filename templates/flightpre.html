@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="static\css\flight.css"> -->
+    <link rel="stylesheet" type="text/css" href="/static/css/flight.css">
     <title>Document</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="card-body">
             <form action="\predict" method="post">
             <!--Card-Title-->
-            <p class="card-title text-center shadow mb-5 rounded">Flight Fare Prediction</p>
+            <p class="card-title text-center shadow mb-5 rounded" >Flight Fare Prediction</p>
           
             <hr>
             <p class="searchText"><strong>Search For Cheap Flights </strong></p>
@@ -47,12 +47,12 @@
             <!--Third Row-->
             <div class="row mt-3">
                   <div class="col-sm-6">
-                      <!-- <p>Depature Date & Time</p> -->
                     <input id="datetime-local" name="Dep_Time" id="Dep_Time" class="browser-default custom-select mb-4"  onfocus="(this.type='datetime-local')" placeholder="---Depature Date & Time---" required="required">
+                   
                   </div>
+
                   <div class="col-sm-6">
-                      <!-- <p>Arrival Date & Time</p> -->
-                   <input id="datetime-local"name="Arrival_Time" id="Arrival_Time"  class="browser-default custom-select mb-4"  onfocus="(this.type='datetime-local')" placeholder="---Arrival Date & Time---" required="required">
+                   <input id="datetime-local" name="Arrival_Time" id="Arrival_Time" class="browser-default custom-select mb-4"  onfocus="(this.type='datetime-local')" placeholder="---Arrival Date & Time---" required="required">
                   </div>
             </div>
           
@@ -92,12 +92,11 @@
            
             
             <div class="text-center">
-                <!-- <button type="button" class="btn btn-info"value="predict">Predict</button>  -->
-                <input type="submit" class="myButton" value="predict"> 
+                <button type="submit" class="btn btn-info">Predict</button>
               </div>
            
             </form>
-            <h5>{{ prediction_test }}<h5> 
+            <h5> {{ prediction_price }}<h5> 
         </div>
     </div>
         <footer> 
