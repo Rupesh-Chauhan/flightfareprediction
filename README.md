@@ -39,7 +39,7 @@ Link: https://flight-fare-prediction-at-hero.herokuapp.com/
 
 ## Data
   All the information regarding Data set is given to kaggle https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh 
-  the data is used in this project is also downloaded from Kaggle.
+  the data is used in this project is downloaded from Kaggle.
   Go through the website link you will get the data.
 
 ## Deployement on Heroku
