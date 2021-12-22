@@ -2,15 +2,14 @@
 
 
 # Index
-* Aim
-* Demo
+* [Aim](#aim)
 * [Demo](#demo)
-* Installation / packages
-* Data
-* Deployement on Heroku
-* Working Directory Tree
-* Bug / Request
-* Future scope of project
+* [Installation / packages](#Installation--/--packages)
+* [Data](#data)
+* [Deployement on Heroku](#Deployement-on-Heroku)
+* [Working Directory Tree](#Working Directory Tree)
+* [Bug / Request](#Bug / Request)
+* [Future scope of project](#Future scope of project)
 
  ## Aim 
   The main goal is to predict the fares of the flights based on different factors available in the provided dataset.
