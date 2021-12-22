@@ -4,6 +4,7 @@
 # Index
 * Aim
 * Demo
+* [Demo](#demo)
 * Installation / packages
 * Data
 * Deployement on Heroku
