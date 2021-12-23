@@ -22,10 +22,7 @@
 
 ### Demo
 
-
-https://user-images.githubusercontent.com/66023304/146787458-afa54b70-84b9-41bd-afb4-0dce2ef1cb9a.mp4
-
-
+https://user-images.githubusercontent.com/66023304/147250226-4f291a9b-388d-4a36-8d5d-74dfd7a99fc4.mp4
 
 Link: `https://flight-fare-prediction-at-hero.herokuapp.com/`
 
