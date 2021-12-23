@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/66023304/146787458-afa54b70-84b9-41bd-
 
 
 
-Link: https://flight-fare-prediction-at-hero.herokuapp.com/ 
+Link: `https://flight-fare-prediction-at-hero.herokuapp.com/`
 
 ## Installation / packages
   This project is made in Python programming language python 3.8.8 64 bit Visual studio code or 
@@ -38,7 +38,7 @@ Link: https://flight-fare-prediction-at-hero.herokuapp.com/
 
 
 ## Data
-  All the information regarding Data set is given to kaggle https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh 
+  All the information regarding Data set is given to kaggle `https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh` 
   the data is used in this project is downloaded from Kaggle.
   Go through the website link you will get the data.
 
