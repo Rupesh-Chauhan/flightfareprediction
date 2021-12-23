@@ -32,11 +32,12 @@ Link: `https://flight-fare-prediction-at-hero.herokuapp.com/`
   you can also use basic IDLE interface for coding https://www.python.org/downloads/release/python-388/ Refer this link for installation
 
   After Installation of python 
-  In CMD Type: * pip install -r requirement.txt to install all of the required libraries for this project.
+  In CMD Type: * `pip install -r requirement.txt` to install all of the required libraries for this project.
 
 ## Libraries
    All Libraries used in this project stored in `requirements.txt`
-  `https://github.com/Rupesh-Chauhan/flightfareprediction/blob/main/requirements.txt`
+  
+  * `https://github.com/Rupesh-Chauhan/flightfareprediction/blob/main/requirements.txt`
   
 
 ### Data
